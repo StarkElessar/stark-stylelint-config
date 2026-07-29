@@ -1,0 +1,9 @@
+$notice-color: rebeccapurple;
+
+.notice {
+    display: block;
+
+    &:hover {
+        color: $notice-color;
+    }
+}

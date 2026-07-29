@@ -1,0 +1,7 @@
+.notice {
+  color: red !important;
+  display: block;
+  margin-left: 1rem;
+  background-image: url('notice.svg');
+  content: "This deliberately overlong stylesheet line verifies that the shared configuration keeps CSS and SCSS source lines within the agreed maximum of one hundred and forty characters.";
+}

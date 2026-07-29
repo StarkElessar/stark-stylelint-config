@@ -1,0 +1,6 @@
+.notice {
+    display: block;
+    margin-inline: auto;
+    color: rebeccapurple;
+    background-image: url("notice.svg");
+}
