@@ -56,7 +56,7 @@ Create `stylelint.config.mjs`:
 ```js
 /** @type {import("stylelint").Config} */
 export default {
-  extends: ["@stark/stylelint-config"]
+	extends: ["@stark/stylelint-config"]
 };
 ```
 
@@ -76,11 +76,11 @@ Project-specific rules can be layered on top:
 ```js
 /** @type {import("stylelint").Config} */
 export default {
-  extends: ["@stark/stylelint-config"],
-  ignoreFiles: ["vendor/**/*.scss"],
-  rules: {
-    "selector-class-pattern": "^[a-z][a-z0-9-]*$"
-  }
+	extends: ["@stark/stylelint-config"],
+	ignoreFiles: ["vendor/**/*.scss"],
+	rules: {
+		"selector-class-pattern": "^[a-z][a-z0-9-]*$"
+	}
 };
 ```
 
