@@ -93,3 +93,6 @@ npm run check
 
 `npm run check` lints known-good CSS/SCSS fixtures, runs the configuration
 tests, and verifies the Git-installable package contents with a dry-run pack.
+
+See [RELEASING.md](RELEASING.md) for the versioning, tagging, and consumer
+update workflow.
